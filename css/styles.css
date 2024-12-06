@@ -34,8 +34,11 @@ button {
 }
 /* #region-header */
 .header-page {
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav-page {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -45,6 +48,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .studio {
   color: #2e2f42;
@@ -57,6 +61,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
+}
+.nav-item {
+  padding: 24px 0;
 }
 
 .studio {
@@ -78,6 +87,10 @@ button {
 
 .address {
   font-style: normal;
+}
+.addr-list {
+  display: flex;
+  gap: 40px;
 }
 .addr-link {
   font-size: 16px;
@@ -212,4 +225,13 @@ button {
 }
 .footer-studio {
   color: #f4f4fd;
+}
+.img-list-item {
+  display: block;
+}
+.header-conteiner {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
