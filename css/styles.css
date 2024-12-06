@@ -222,9 +222,23 @@ button {
   text-align: center;
 }
 .our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-portfolio-list {
   background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-portfolio-li {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our-portfolio-title {
   font-size: 36px;
@@ -233,6 +247,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-name {
   font-weight: 500;
@@ -240,6 +255,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-info {
   line-height: 1.5;
@@ -247,6 +263,7 @@ button {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -256,11 +273,14 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-title {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .footer-studio {
   color: #f4f4fd;
