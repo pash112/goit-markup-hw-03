@@ -169,6 +169,7 @@ img {
   color: #2e2f42;
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
