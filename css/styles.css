@@ -177,7 +177,7 @@ img {
   justify-content: space-between;
 }
 .benefits-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .benef-lis-p {
   font-weight: 500;
