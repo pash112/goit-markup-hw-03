@@ -32,6 +32,11 @@ ul {
   margin: left 0;
   margin: right 0;
 }
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
