@@ -22,6 +22,9 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.header-container {
+  display: flex;
+}
 .container {
   max-width: 1158px;
   padding: left 0;
@@ -52,6 +55,7 @@ img {
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .nav-page {
   display: flex;
   align-items: center;
@@ -169,7 +173,7 @@ img {
   gap: 24px;
 }
 .benefits-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .benef-lis-p {
   font-weight: 500;
