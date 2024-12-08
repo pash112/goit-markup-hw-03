@@ -176,8 +176,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.benefits-item:first-child {
-  width: calc((100% - 3 * 24px) / 4);
+.benefits-item {
+  width: calc ((100% - 3 * 24px) / 4);
 }
 .benef-lis-p {
   font-weight: 500;
