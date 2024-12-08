@@ -55,6 +55,10 @@ img {
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
+.header-container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .nav-page {
   display: flex;
