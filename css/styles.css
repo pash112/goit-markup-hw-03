@@ -64,11 +64,13 @@ img {
 .header-container {
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
 }
 
 .nav-page {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -149,6 +151,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 .hero-btn {
   font-weight: 500;
@@ -161,6 +164,7 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -174,7 +178,6 @@ img {
   padding: 120px 0;
 }
 .benefits-list {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
